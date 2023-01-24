@@ -6,6 +6,7 @@
  * @n1: Pointer to the first node.
  * @n2: Second node for swapping.
  */
+
 void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
 {
 	(*n1)->next = n2->next;
